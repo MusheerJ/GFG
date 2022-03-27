@@ -16,7 +16,6 @@ public class UnionOfArr {
 
     public static ArrayList<Integer> findUnion(int arr1[], int arr2[], int n, int m) {
         Set<Integer> hs = new TreeSet<>();
-        hs
         for (int a : arr1) {
             hs.add(a);
         }
